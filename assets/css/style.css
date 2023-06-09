@@ -568,6 +568,9 @@ a {
     justify-content: center;
     margin-right: 16px;
 }
+.footer .column .social .social-link:hover {
+    background-color: rgba(242, 241, 247, 1);
+}
 .footer .row-bottom .desc-footer {
     font-weight: 400;
     font-size: 1.4rem;
