@@ -4,6 +4,10 @@
 :root {
     --primary-color: #0f1b4c;
 }
+html,
+body {
+    scroll-behavior: smooth;
+}
 html {
     font-size: 62.5%;
 }
@@ -44,14 +48,6 @@ a {
     padding-top: 26px;
     top: -26px;
 }
-.hero-wrap {
-    background: #e6f0ff;
-    height: calc(100vh - 90px);
-    position: relative;
-    /* loại bỏ margin collapse */
-    display: flex;
-    flex-direction: column;
-}
 
 .logo {
     margin-right: 50px;
@@ -90,8 +86,14 @@ a {
     border-radius: 8px;
 }
 /* =======Hero======= */
-.hero {
-    padding-top: 130px;
+.hero-wrap {
+    background: #e6f0ff;
+    height: calc(100vh - 90px);
+    justify-content: center;
+    position: relative;
+    /* loại bỏ margin collapse */
+    display: flex;
+    flex-direction: column;
 }
 .hero .info {
     width: 51%;
